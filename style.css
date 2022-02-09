@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+  --light-ash: #F2F2FB;
+  --deep-indigo: #2E3554;
+  --mid-ash: #A1A4B4;
+  --deep-ash: #848399;
+  --pink: #DCAFC1;
+  --light-black: #DCAFC1;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body{
+  background: var(--light-ash);
+  display:flex;
+  justify-content: center;
+  align-items: cener;
+  align-content: center;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  flex-direction: column;
+}
+.wrapper{
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem auto;
+/*   background: #000; */
+}
+.box{
+  flex: 0 0 15rem;
+  background: #fff;
+  padding: 1.5rem;
+  margin: .5rem;
+  border-radius: .4rem;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+}
+.box a{
+  text-align: center;
+  display: block;
+  border: 1px solid #A1A4B4;
+  color: #2E3554;
+  padding: .5rem .9rem;
+  border-radius: .4rem;
+  margin: .7rem 0;
+  transition: .2s ease;
+  font-weight: 600;
+}
+.box a:hover{
+  color: #fff;
+  background: #2E3554;
+}
+.box .icon-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+.box .icon-box h5{
+  color: #2E3554;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.icon-box-one i {
+  background-image: linear-gradient(to right, #BECCFB,#EAD3FE);
+  padding: .8rem;
+  border-radius: .4rem;
+  margin-right: 1rem;
+}
+.icon-box-two i {
+  background-image: linear-gradient(to right, #FDD8E9,#FED0D5);
+  padding: .8rem;
+  border-radius: .4rem;
+  margin-right: 1rem;
+}
+.icon-box-three i {
+  background-image: linear-gradient(to right bottom, #BFEAFB,#E5D9FE);
+  padding: .8rem;
+  border-radius: .4rem;
+  margin-right: 1rem;
+}
+.icon-box-four i {
+  background-image: linear-gradient(to right, #BDF9E6,#D0E5FB);
+  padding: .8rem;
+  border-radius: .4rem;
+  margin-right: 1rem;
+}
+.icon-box-five i {
+  background-image: linear-gradient(to right, #C6DEFB,#F5D5DA);
+  padding: .8rem;
+  border-radius: .4rem;
+  margin-right: 1rem;
+}
+.icon-box-six i {
+  background-image: linear-gradient(to right, #FBDECC,#DBDAF7);
+  padding: .8rem;
+  border-radius: .4rem;
+  margin-right: 1rem;
+}
+footer{
+  padding: 0 20%;
+  text-align: center;
+}
